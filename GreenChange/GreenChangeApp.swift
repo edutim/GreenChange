@@ -12,6 +12,9 @@ struct GreenChangeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(WalletViewModel())
+                .environmentObject(ChallengesViewModel.shared)
+                .environmentObject(EventsViewModel.shared)
         }
     }
 }

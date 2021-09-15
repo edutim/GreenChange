@@ -11,6 +11,41 @@
 		4A2A7E0E26DF1046005CA9DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A7E0D26DF1046005CA9DB /* ContentView.swift */; };
 		4A2A7E1026DF1049005CA9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A7E0F26DF1049005CA9DB /* Assets.xcassets */; };
 		4A2A7E1326DF1049005CA9DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A7E1226DF1049005CA9DB /* Preview Assets.xcassets */; };
+		4A2A7E1F26DF1113005CA9DB /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A7E1E26DF1113005CA9DB /* EventsView.swift */; };
+		4A2A7E2126DF111B005CA9DB /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A7E2026DF111B005CA9DB /* WalletView.swift */; };
+		4A2A7E2326DF1120005CA9DB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A7E2226DF1120005CA9DB /* MapView.swift */; };
+		4A2A7E2526DF112A005CA9DB /* ChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A7E2426DF112A005CA9DB /* ChallengesView.swift */; };
+		4A2A7E2726DF1670005CA9DB /* WalletAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A7E2626DF1670005CA9DB /* WalletAmountView.swift */; };
+		4A3BB73226DF3346004A8D0F /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BB73126DF3346004A8D0F /* SendView.swift */; };
+		4A3BB73426DF334D004A8D0F /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BB73326DF334D004A8D0F /* ReceiveView.swift */; };
+		4A3BB77126E0018B004A8D0F /* ChallengeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BB77026E0018B004A8D0F /* ChallengeCardView.swift */; };
+		4A3BB77426E001BB004A8D0F /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BB77326E001BB004A8D0F /* Challenge.swift */; };
+		4A3BB77626E002EC004A8D0F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BB77526E002EC004A8D0F /* Event.swift */; };
+		4A3BB7AD26E1A524004A8D0F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BB7AC26E1A524004A8D0F /* NotificationView.swift */; };
+		4A3BB7AF26E1AA7C004A8D0F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BB7AE26E1AA7C004A8D0F /* NetworkManager.swift */; };
+		4A3BB7B826E27BE8004A8D0F /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BB7B726E27BE8004A8D0F /* DebugView.swift */; };
+		4A5D9DF626E8331D002FF13A /* WalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9DF526E8331D002FF13A /* WalletViewModel.swift */; };
+		4A5D9DF826E834BB002FF13A /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9DF726E834BB002FF13A /* Account.swift */; };
+		4A5D9DFA26E83597002FF13A /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9DF926E83597002FF13A /* Coin.swift */; };
+		4A5D9DFE26E8EA16002FF13A /* CodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9DFD26E8EA16002FF13A /* CodeScanner.swift */; };
+		4A5D9E0026E8EABB002FF13A /* SendStep1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9DFF26E8EABB002FF13A /* SendStep1View.swift */; };
+		4A5D9E0226E8EC69002FF13A /* SendStep2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9E0126E8EC69002FF13A /* SendStep2View.swift */; };
+		4A5D9E0426E9A6DF002FF13A /* SendStep3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9E0326E9A6DF002FF13A /* SendStep3View.swift */; };
+		4A73A36226EBCE2F001D38B7 /* ChallengesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73A36126EBCE2F001D38B7 /* ChallengesViewModel.swift */; };
+		4A73A36426EBD13E001D38B7 /* ChallengeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73A36326EBD13E001D38B7 /* ChallengeDetailView.swift */; };
+		4A73A36626EBEEB7001D38B7 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73A36526EBEEB7001D38B7 /* EventDetailView.swift */; };
+		4A73A36826EBEECC001D38B7 /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73A36726EBEECC001D38B7 /* EventsViewModel.swift */; };
+		4A73A36A26EC05C2001D38B7 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73A36926EC05C2001D38B7 /* MapViewModel.swift */; };
+		4A73A36C26EC17C5001D38B7 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73A36B26EC17C5001D38B7 /* MapAnnotationView.swift */; };
+		4A7EDD5326EF8D8700D8C9F2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD5226EF8D8700D8C9F2 /* SettingsView.swift */; };
+		4A7EDD5526EFC0A900D8C9F2 /* ScrollingFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD5426EFC0A900D8C9F2 /* ScrollingFactsView.swift */; };
+		4A7EDD5826EFC74300D8C9F2 /* Color+UserDefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD5726EFC74300D8C9F2 /* Color+UserDefined.swift */; };
+		4A7EDD5A26EFC9B300D8C9F2 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD5926EFC9B300D8C9F2 /* ViewExtensions.swift */; };
+		4A7EDD5C26EFCDE900D8C9F2 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD5B26EFCDE900D8C9F2 /* BackgroundView.swift */; };
+		4A7EDD7926F0413A00D8C9F2 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD7826F0413A00D8C9F2 /* CalendarView.swift */; };
+		4A7EDD7B26F0DD4C00D8C9F2 /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD7A26F0DD4C00D8C9F2 /* EventCardView.swift */; };
+		4A7EDD7E26F171F300D8C9F2 /* AccountInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD7D26F171F300D8C9F2 /* AccountInformationView.swift */; };
+		4ADAC0E026EA5B0400D95BA8 /* NewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADAC0DF26EA5B0400D95BA8 /* NewAccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +55,41 @@
 		4A2A7E0F26DF1049005CA9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A2A7E1226DF1049005CA9DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A2A7E1426DF1049005CA9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2A7E1E26DF1113005CA9DB /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		4A2A7E2026DF111B005CA9DB /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		4A2A7E2226DF1120005CA9DB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4A2A7E2426DF112A005CA9DB /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
+		4A2A7E2626DF1670005CA9DB /* WalletAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAmountView.swift; sourceTree = "<group>"; };
+		4A3BB73126DF3346004A8D0F /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
+		4A3BB73326DF334D004A8D0F /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
+		4A3BB77026E0018B004A8D0F /* ChallengeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCardView.swift; sourceTree = "<group>"; };
+		4A3BB77326E001BB004A8D0F /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		4A3BB77526E002EC004A8D0F /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4A3BB7AC26E1A524004A8D0F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		4A3BB7AE26E1AA7C004A8D0F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = GreenChange/Networking/NetworkManager.swift; sourceTree = SOURCE_ROOT; };
+		4A3BB7B726E27BE8004A8D0F /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		4A5D9DF526E8331D002FF13A /* WalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewModel.swift; sourceTree = "<group>"; };
+		4A5D9DF726E834BB002FF13A /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		4A5D9DF926E83597002FF13A /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		4A5D9DFD26E8EA16002FF13A /* CodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScanner.swift; sourceTree = "<group>"; };
+		4A5D9DFF26E8EABB002FF13A /* SendStep1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendStep1View.swift; sourceTree = "<group>"; };
+		4A5D9E0126E8EC69002FF13A /* SendStep2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendStep2View.swift; sourceTree = "<group>"; };
+		4A5D9E0326E9A6DF002FF13A /* SendStep3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendStep3View.swift; sourceTree = "<group>"; };
+		4A73A36126EBCE2F001D38B7 /* ChallengesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewModel.swift; sourceTree = "<group>"; };
+		4A73A36326EBD13E001D38B7 /* ChallengeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailView.swift; sourceTree = "<group>"; };
+		4A73A36526EBEEB7001D38B7 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		4A73A36726EBEECC001D38B7 /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		4A73A36926EC05C2001D38B7 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		4A73A36B26EC17C5001D38B7 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		4A7EDD5226EF8D8700D8C9F2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4A7EDD5426EFC0A900D8C9F2 /* ScrollingFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingFactsView.swift; sourceTree = "<group>"; };
+		4A7EDD5726EFC74300D8C9F2 /* Color+UserDefined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+UserDefined.swift"; sourceTree = "<group>"; };
+		4A7EDD5926EFC9B300D8C9F2 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		4A7EDD5B26EFCDE900D8C9F2 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		4A7EDD7826F0413A00D8C9F2 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		4A7EDD7A26F0DD4C00D8C9F2 /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
+		4A7EDD7D26F171F300D8C9F2 /* AccountInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInformationView.swift; sourceTree = "<group>"; };
+		4ADAC0DF26EA5B0400D95BA8 /* NewAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +124,16 @@
 			children = (
 				4A2A7E0B26DF1046005CA9DB /* GreenChangeApp.swift */,
 				4A2A7E0D26DF1046005CA9DB /* ContentView.swift */,
+				4A3BB7B726E27BE8004A8D0F /* DebugView.swift */,
+				4A5D9DFD26E8EA16002FF13A /* CodeScanner.swift */,
+				4A3BB77226E001A1004A8D0F /* Models */,
+				4A2A7E1A26DF1054005CA9DB /* Wallet */,
+				4A2A7E1B26DF1064005CA9DB /* Map */,
+				4A2A7E1C26DF107A005CA9DB /* Challenges */,
+				4A2A7E1D26DF1080005CA9DB /* Events */,
+				4A3BB7AB26E1A50C004A8D0F /* OtherViews */,
+				4A3BB7B026E1AB67004A8D0F /* Networking */,
+				4A7EDD5626EFC6AA00D8C9F2 /* Helper */,
 				4A2A7E0F26DF1049005CA9DB /* Assets.xcassets */,
 				4A2A7E1426DF1049005CA9DB /* Info.plist */,
 				4A2A7E1126DF1049005CA9DB /* Preview Content */,
@@ -67,6 +147,103 @@
 				4A2A7E1226DF1049005CA9DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A2A7E1A26DF1054005CA9DB /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				4A2A7E2026DF111B005CA9DB /* WalletView.swift */,
+				4A2A7E2626DF1670005CA9DB /* WalletAmountView.swift */,
+				4A3BB73126DF3346004A8D0F /* SendView.swift */,
+				4A5D9DFF26E8EABB002FF13A /* SendStep1View.swift */,
+				4A5D9E0126E8EC69002FF13A /* SendStep2View.swift */,
+				4A5D9E0326E9A6DF002FF13A /* SendStep3View.swift */,
+				4A3BB73326DF334D004A8D0F /* ReceiveView.swift */,
+				4A5D9DF526E8331D002FF13A /* WalletViewModel.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		4A2A7E1B26DF1064005CA9DB /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				4A2A7E2226DF1120005CA9DB /* MapView.swift */,
+				4A73A36B26EC17C5001D38B7 /* MapAnnotationView.swift */,
+				4A73A36926EC05C2001D38B7 /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		4A2A7E1C26DF107A005CA9DB /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				4A2A7E2426DF112A005CA9DB /* ChallengesView.swift */,
+				4A73A36326EBD13E001D38B7 /* ChallengeDetailView.swift */,
+				4A3BB77026E0018B004A8D0F /* ChallengeCardView.swift */,
+				4A73A36126EBCE2F001D38B7 /* ChallengesViewModel.swift */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		4A2A7E1D26DF1080005CA9DB /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				4A2A7E1E26DF1113005CA9DB /* EventsView.swift */,
+				4A7EDD7826F0413A00D8C9F2 /* CalendarView.swift */,
+				4A7EDD7A26F0DD4C00D8C9F2 /* EventCardView.swift */,
+				4A73A36526EBEEB7001D38B7 /* EventDetailView.swift */,
+				4A73A36726EBEECC001D38B7 /* EventsViewModel.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		4A3BB77226E001A1004A8D0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BB77326E001BB004A8D0F /* Challenge.swift */,
+				4A3BB77526E002EC004A8D0F /* Event.swift */,
+				4A5D9DF726E834BB002FF13A /* Account.swift */,
+				4A5D9DF926E83597002FF13A /* Coin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A3BB7AB26E1A50C004A8D0F /* OtherViews */ = {
+			isa = PBXGroup;
+			children = (
+				4ADAC0DF26EA5B0400D95BA8 /* NewAccountView.swift */,
+				4A3BB7AC26E1A524004A8D0F /* NotificationView.swift */,
+				4A7EDD5426EFC0A900D8C9F2 /* ScrollingFactsView.swift */,
+				4A7EDD5B26EFCDE900D8C9F2 /* BackgroundView.swift */,
+				4A7EDD7C26F171AC00D8C9F2 /* Settings */,
+			);
+			path = OtherViews;
+			sourceTree = "<group>";
+		};
+		4A3BB7B026E1AB67004A8D0F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BB7AE26E1AA7C004A8D0F /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4A7EDD5626EFC6AA00D8C9F2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EDD5726EFC74300D8C9F2 /* Color+UserDefined.swift */,
+				4A7EDD5926EFC9B300D8C9F2 /* ViewExtensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4A7EDD7C26F171AC00D8C9F2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EDD5226EF8D8700D8C9F2 /* SettingsView.swift */,
+				4A7EDD7D26F171F300D8C9F2 /* AccountInformationView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +315,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5D9E0026E8EABB002FF13A /* SendStep1View.swift in Sources */,
+				4A7EDD7E26F171F300D8C9F2 /* AccountInformationView.swift in Sources */,
+				4A5D9DFA26E83597002FF13A /* Coin.swift in Sources */,
+				4A7EDD5526EFC0A900D8C9F2 /* ScrollingFactsView.swift in Sources */,
+				4A5D9E0426E9A6DF002FF13A /* SendStep3View.swift in Sources */,
+				4A2A7E2526DF112A005CA9DB /* ChallengesView.swift in Sources */,
 				4A2A7E0E26DF1046005CA9DB /* ContentView.swift in Sources */,
+				4A2A7E2726DF1670005CA9DB /* WalletAmountView.swift in Sources */,
+				4A73A36226EBCE2F001D38B7 /* ChallengesViewModel.swift in Sources */,
+				4A73A36426EBD13E001D38B7 /* ChallengeDetailView.swift in Sources */,
+				4ADAC0E026EA5B0400D95BA8 /* NewAccountView.swift in Sources */,
+				4A7EDD5826EFC74300D8C9F2 /* Color+UserDefined.swift in Sources */,
+				4A5D9DFE26E8EA16002FF13A /* CodeScanner.swift in Sources */,
+				4A3BB7AD26E1A524004A8D0F /* NotificationView.swift in Sources */,
+				4A73A36A26EC05C2001D38B7 /* MapViewModel.swift in Sources */,
 				4A2A7E0C26DF1046005CA9DB /* GreenChangeApp.swift in Sources */,
+				4A7EDD7926F0413A00D8C9F2 /* CalendarView.swift in Sources */,
+				4A5D9DF626E8331D002FF13A /* WalletViewModel.swift in Sources */,
+				4A3BB77626E002EC004A8D0F /* Event.swift in Sources */,
+				4A7EDD5326EF8D8700D8C9F2 /* SettingsView.swift in Sources */,
+				4A73A36626EBEEB7001D38B7 /* EventDetailView.swift in Sources */,
+				4A5D9E0226E8EC69002FF13A /* SendStep2View.swift in Sources */,
+				4A7EDD7B26F0DD4C00D8C9F2 /* EventCardView.swift in Sources */,
+				4A3BB7B826E27BE8004A8D0F /* DebugView.swift in Sources */,
+				4A2A7E2326DF1120005CA9DB /* MapView.swift in Sources */,
+				4A7EDD5A26EFC9B300D8C9F2 /* ViewExtensions.swift in Sources */,
+				4A2A7E1F26DF1113005CA9DB /* EventsView.swift in Sources */,
+				4A7EDD5C26EFCDE900D8C9F2 /* BackgroundView.swift in Sources */,
+				4A3BB77126E0018B004A8D0F /* ChallengeCardView.swift in Sources */,
+				4A3BB73426DF334D004A8D0F /* ReceiveView.swift in Sources */,
+				4A3BB7AF26E1AA7C004A8D0F /* NetworkManager.swift in Sources */,
+				4A73A36C26EC17C5001D38B7 /* MapAnnotationView.swift in Sources */,
+				4A3BB73226DF3346004A8D0F /* SendView.swift in Sources */,
+				4A3BB77426E001BB004A8D0F /* Challenge.swift in Sources */,
+				4A73A36826EBEECC001D38B7 /* EventsViewModel.swift in Sources */,
+				4A5D9DF826E834BB002FF13A /* Account.swift in Sources */,
+				4A2A7E2126DF111B005CA9DB /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
