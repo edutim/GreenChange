@@ -65,20 +65,20 @@ struct WalletView: View {
                             List(ChallengesViewModel.shared.challenges.filter {$0.isActive}) { challenge in
                                 NavigationLink(destination: ChallengeDetailView(challenge: challenge), label: {
                                     ZStack{
-                                        ChallengeCardView(challenge: challenge)
+                                        ChallengeCardSmallView(challenge: challenge)
                                     }
                                 })
                                 
                             }
                             .listStyle(PlainListStyle())
-//                            ScrollView() {
-//                                VStack(spacing: 10) {
-//                                    ChallengeCardView(challenge: Challenge.example)
-//                                    ChallengeCardView(challenge: Challenge.example)
-//                                    ChallengeCardView(challenge: Challenge.example)
-//                                }
-//                                .padding()
-//                            }
+                            //                            ScrollView() {
+                            //                                VStack(spacing: 10) {
+                            //                                    ChallengeCardView(challenge: Challenge.example)
+                            //                                    ChallengeCardView(challenge: Challenge.example)
+                            //                                    ChallengeCardView(challenge: Challenge.example)
+                            //                                }
+                            //                                .padding()
+                            //                            }
                         }
                         VStack() {
                             VStack() {
@@ -88,17 +88,18 @@ struct WalletView: View {
                             }
                             List(EventsViewModel.shared.events.filter {$0.isAttending}) { event in
                                 NavigationLink(destination: EventDetailView(event: event), label: {
-                                    EventCardView(event: event)
+                                    EventCardSmallView(event: event)
                                 })
                             }
-//                            ScrollView() {
-//                                VStack(spacing: 20) {
-//                                    ChallengeCardView(challenge: Challenge.example)
-//                                    ChallengeCardView(challenge: Challenge.example)
-//                                    ChallengeCardView(challenge: Challenge.example)
-//                                }
-//                                .padding()
-//                            }
+                            .listStyle(PlainListStyle())
+                            //                            ScrollView() {
+                            //                                VStack(spacing: 20) {
+                            //                                    ChallengeCardView(challenge: Challenge.example)
+                            //                                    ChallengeCardView(challenge: Challenge.example)
+                            //                                    ChallengeCardView(challenge: Challenge.example)
+                            //                                }
+                            //                                .padding()
+                            //                            }
                         }
                     }
                     
@@ -113,7 +114,7 @@ struct WalletView: View {
                 .sheet(isPresented: $showSettings) {
                     SettingsView()
                 }
-            
+                
                 .toolbar {
                     ToolbarItemGroup(placement: .navigationBarTrailing) {
                         Button(action: {

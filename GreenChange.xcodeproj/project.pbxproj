@@ -45,6 +45,8 @@
 		4A7EDD7926F0413A00D8C9F2 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD7826F0413A00D8C9F2 /* CalendarView.swift */; };
 		4A7EDD7B26F0DD4C00D8C9F2 /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD7A26F0DD4C00D8C9F2 /* EventCardView.swift */; };
 		4A7EDD7E26F171F300D8C9F2 /* AccountInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD7D26F171F300D8C9F2 /* AccountInformationView.swift */; };
+		4A7EDD8026F2213D00D8C9F2 /* ChallengeCardSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD7F26F2213D00D8C9F2 /* ChallengeCardSmallView.swift */; };
+		4A7EDD8226F224B700D8C9F2 /* EventCardSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD8126F224B700D8C9F2 /* EventCardSmallView.swift */; };
 		4ADAC0E026EA5B0400D95BA8 /* NewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADAC0DF26EA5B0400D95BA8 /* NewAccountView.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +91,8 @@
 		4A7EDD7826F0413A00D8C9F2 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		4A7EDD7A26F0DD4C00D8C9F2 /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
 		4A7EDD7D26F171F300D8C9F2 /* AccountInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInformationView.swift; sourceTree = "<group>"; };
+		4A7EDD7F26F2213D00D8C9F2 /* ChallengeCardSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCardSmallView.swift; sourceTree = "<group>"; };
+		4A7EDD8126F224B700D8C9F2 /* EventCardSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardSmallView.swift; sourceTree = "<group>"; };
 		4ADAC0DF26EA5B0400D95BA8 /* NewAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +184,7 @@
 				4A2A7E2426DF112A005CA9DB /* ChallengesView.swift */,
 				4A73A36326EBD13E001D38B7 /* ChallengeDetailView.swift */,
 				4A3BB77026E0018B004A8D0F /* ChallengeCardView.swift */,
+				4A7EDD7F26F2213D00D8C9F2 /* ChallengeCardSmallView.swift */,
 				4A73A36126EBCE2F001D38B7 /* ChallengesViewModel.swift */,
 			);
 			path = Challenges;
@@ -191,6 +196,7 @@
 				4A2A7E1E26DF1113005CA9DB /* EventsView.swift */,
 				4A7EDD7826F0413A00D8C9F2 /* CalendarView.swift */,
 				4A7EDD7A26F0DD4C00D8C9F2 /* EventCardView.swift */,
+				4A7EDD8126F224B700D8C9F2 /* EventCardSmallView.swift */,
 				4A73A36526EBEEB7001D38B7 /* EventDetailView.swift */,
 				4A73A36726EBEECC001D38B7 /* EventsViewModel.swift */,
 			);
@@ -338,11 +344,13 @@
 				4A73A36626EBEEB7001D38B7 /* EventDetailView.swift in Sources */,
 				4A5D9E0226E8EC69002FF13A /* SendStep2View.swift in Sources */,
 				4A7EDD7B26F0DD4C00D8C9F2 /* EventCardView.swift in Sources */,
+				4A7EDD8226F224B700D8C9F2 /* EventCardSmallView.swift in Sources */,
 				4A3BB7B826E27BE8004A8D0F /* DebugView.swift in Sources */,
 				4A2A7E2326DF1120005CA9DB /* MapView.swift in Sources */,
 				4A7EDD5A26EFC9B300D8C9F2 /* ViewExtensions.swift in Sources */,
 				4A2A7E1F26DF1113005CA9DB /* EventsView.swift in Sources */,
 				4A7EDD5C26EFCDE900D8C9F2 /* BackgroundView.swift in Sources */,
+				4A7EDD8026F2213D00D8C9F2 /* ChallengeCardSmallView.swift in Sources */,
 				4A3BB77126E0018B004A8D0F /* ChallengeCardView.swift in Sources */,
 				4A3BB73426DF334D004A8D0F /* ReceiveView.swift in Sources */,
 				4A3BB7AF26E1AA7C004A8D0F /* NetworkManager.swift in Sources */,
