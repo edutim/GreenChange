@@ -48,7 +48,7 @@ struct SendStep1View: View {
             }
             .overlay(
                     RoundedRectangle(cornerRadius: 16)
-                        .stroke(Color.green, lineWidth: 4)
+                        .stroke(Color.accentColor, lineWidth: 4)
                 )
             .padding()
             Button("Continue", action: {

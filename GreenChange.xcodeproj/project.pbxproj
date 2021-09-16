@@ -16,6 +16,8 @@
 		4A2A7E2326DF1120005CA9DB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A7E2226DF1120005CA9DB /* MapView.swift */; };
 		4A2A7E2526DF112A005CA9DB /* ChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A7E2426DF112A005CA9DB /* ChallengesView.swift */; };
 		4A2A7E2726DF1670005CA9DB /* WalletAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2A7E2626DF1670005CA9DB /* WalletAmountView.swift */; };
+		4A2E3AB226F2704A004AEAE1 /* CompostIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E3AB126F2704A004AEAE1 /* CompostIt.swift */; };
+		4A2E3AB626F27D5A004AEAE1 /* compost.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A2E3AB526F27D5A004AEAE1 /* compost.mp4 */; };
 		4A3BB73226DF3346004A8D0F /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BB73126DF3346004A8D0F /* SendView.swift */; };
 		4A3BB73426DF334D004A8D0F /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BB73326DF334D004A8D0F /* ReceiveView.swift */; };
 		4A3BB77126E0018B004A8D0F /* ChallengeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BB77026E0018B004A8D0F /* ChallengeCardView.swift */; };
@@ -47,6 +49,8 @@
 		4A7EDD7E26F171F300D8C9F2 /* AccountInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD7D26F171F300D8C9F2 /* AccountInformationView.swift */; };
 		4A7EDD8026F2213D00D8C9F2 /* ChallengeCardSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD7F26F2213D00D8C9F2 /* ChallengeCardSmallView.swift */; };
 		4A7EDD8226F224B700D8C9F2 /* EventCardSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD8126F224B700D8C9F2 /* EventCardSmallView.swift */; };
+		4A7EDD8426F2310E00D8C9F2 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD8326F2310E00D8C9F2 /* Business.swift */; };
+		4A7EDD8826F2417300D8C9F2 /* ChallengeActiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7EDD8726F2417300D8C9F2 /* ChallengeActiveView.swift */; };
 		4ADAC0E026EA5B0400D95BA8 /* NewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADAC0DF26EA5B0400D95BA8 /* NewAccountView.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +66,8 @@
 		4A2A7E2226DF1120005CA9DB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		4A2A7E2426DF112A005CA9DB /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
 		4A2A7E2626DF1670005CA9DB /* WalletAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAmountView.swift; sourceTree = "<group>"; };
+		4A2E3AB126F2704A004AEAE1 /* CompostIt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostIt.swift; sourceTree = "<group>"; };
+		4A2E3AB526F27D5A004AEAE1 /* compost.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = compost.mp4; sourceTree = "<group>"; };
 		4A3BB73126DF3346004A8D0F /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
 		4A3BB73326DF334D004A8D0F /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
 		4A3BB77026E0018B004A8D0F /* ChallengeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCardView.swift; sourceTree = "<group>"; };
@@ -93,6 +99,8 @@
 		4A7EDD7D26F171F300D8C9F2 /* AccountInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInformationView.swift; sourceTree = "<group>"; };
 		4A7EDD7F26F2213D00D8C9F2 /* ChallengeCardSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCardSmallView.swift; sourceTree = "<group>"; };
 		4A7EDD8126F224B700D8C9F2 /* EventCardSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardSmallView.swift; sourceTree = "<group>"; };
+		4A7EDD8326F2310E00D8C9F2 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		4A7EDD8726F2417300D8C9F2 /* ChallengeActiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeActiveView.swift; sourceTree = "<group>"; };
 		4ADAC0DF26EA5B0400D95BA8 /* NewAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				4A2A7E2426DF112A005CA9DB /* ChallengesView.swift */,
+				4A7EDD8726F2417300D8C9F2 /* ChallengeActiveView.swift */,
+				4A2E3AB326F27050004AEAE1 /* Challenges */,
 				4A73A36326EBD13E001D38B7 /* ChallengeDetailView.swift */,
 				4A3BB77026E0018B004A8D0F /* ChallengeCardView.swift */,
 				4A7EDD7F26F2213D00D8C9F2 /* ChallengeCardSmallView.swift */,
@@ -203,12 +213,30 @@
 			path = Events;
 			sourceTree = "<group>";
 		};
+		4A2E3AB326F27050004AEAE1 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				4A2E3AB426F27D3A004AEAE1 /* Compost */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		4A2E3AB426F27D3A004AEAE1 /* Compost */ = {
+			isa = PBXGroup;
+			children = (
+				4A2E3AB126F2704A004AEAE1 /* CompostIt.swift */,
+				4A2E3AB526F27D5A004AEAE1 /* compost.mp4 */,
+			);
+			path = Compost;
+			sourceTree = "<group>";
+		};
 		4A3BB77226E001A1004A8D0F /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				4A3BB77326E001BB004A8D0F /* Challenge.swift */,
 				4A3BB77526E002EC004A8D0F /* Event.swift */,
 				4A5D9DF726E834BB002FF13A /* Account.swift */,
+				4A7EDD8326F2310E00D8C9F2 /* Business.swift */,
 				4A5D9DF926E83597002FF13A /* Coin.swift */,
 			);
 			path = Models;
@@ -309,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2E3AB626F27D5A004AEAE1 /* compost.mp4 in Resources */,
 				4A2A7E1326DF1049005CA9DB /* Preview Assets.xcassets in Resources */,
 				4A2A7E1026DF1049005CA9DB /* Assets.xcassets in Resources */,
 			);
@@ -327,6 +356,7 @@
 				4A7EDD5526EFC0A900D8C9F2 /* ScrollingFactsView.swift in Sources */,
 				4A5D9E0426E9A6DF002FF13A /* SendStep3View.swift in Sources */,
 				4A2A7E2526DF112A005CA9DB /* ChallengesView.swift in Sources */,
+				4A2E3AB226F2704A004AEAE1 /* CompostIt.swift in Sources */,
 				4A2A7E0E26DF1046005CA9DB /* ContentView.swift in Sources */,
 				4A2A7E2726DF1670005CA9DB /* WalletAmountView.swift in Sources */,
 				4A73A36226EBCE2F001D38B7 /* ChallengesViewModel.swift in Sources */,
@@ -334,6 +364,7 @@
 				4ADAC0E026EA5B0400D95BA8 /* NewAccountView.swift in Sources */,
 				4A7EDD5826EFC74300D8C9F2 /* Color+UserDefined.swift in Sources */,
 				4A5D9DFE26E8EA16002FF13A /* CodeScanner.swift in Sources */,
+				4A7EDD8426F2310E00D8C9F2 /* Business.swift in Sources */,
 				4A3BB7AD26E1A524004A8D0F /* NotificationView.swift in Sources */,
 				4A73A36A26EC05C2001D38B7 /* MapViewModel.swift in Sources */,
 				4A2A7E0C26DF1046005CA9DB /* GreenChangeApp.swift in Sources */,
@@ -354,6 +385,7 @@
 				4A3BB77126E0018B004A8D0F /* ChallengeCardView.swift in Sources */,
 				4A3BB73426DF334D004A8D0F /* ReceiveView.swift in Sources */,
 				4A3BB7AF26E1AA7C004A8D0F /* NetworkManager.swift in Sources */,
+				4A7EDD8826F2417300D8C9F2 /* ChallengeActiveView.swift in Sources */,
 				4A73A36C26EC17C5001D38B7 /* MapAnnotationView.swift in Sources */,
 				4A3BB73226DF3346004A8D0F /* SendView.swift in Sources */,
 				4A3BB77426E001BB004A8D0F /* Challenge.swift in Sources */,

@@ -63,7 +63,7 @@ struct WalletView: View {
                                     .bold()
                             }
                             List(ChallengesViewModel.shared.challenges.filter {$0.isActive}) { challenge in
-                                NavigationLink(destination: ChallengeDetailView(challenge: challenge), label: {
+                                NavigationLink(destination: ChallengeActiveView(challenge: challenge), label: {
                                     ZStack{
                                         ChallengeCardSmallView(challenge: challenge)
                                     }
@@ -131,7 +131,7 @@ struct WalletView: View {
                 }
                 .onAppear() {
                     vm.getAccount()
-                    
+                    vm.getWalletTotal()
                     
                 }
                 

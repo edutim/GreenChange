@@ -12,6 +12,8 @@ struct ContentView: View {
     
     @State private var showNewAccountView = false
     
+    let timer = Timer.publish(every: 5, on: .main, in: .common).autoconnect()
+    
     var body: some View {
         TabView {
             WalletView(showNewAccountView: $showNewAccountView)
@@ -34,7 +36,9 @@ struct ContentView: View {
         .sheet(isPresented: $showNewAccountView, content: {
             NewAccountView(showView: $showNewAccountView)
         })
-        
+        .onReceive(timer) { timer in
+            vm.getWalletTotal()
+        }
         
         .onAppear() {
             vm.getAccount()

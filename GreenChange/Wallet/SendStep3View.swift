@@ -21,13 +21,13 @@ struct SendStep3View: View {
                 .navigationTitle("Confirm")
             Text("Sending \(sendAmount) GreenChange to \(receiverAccountID)")
             Button("Transfer") {
-                
+                vm.validateTranfer(amount: Int(sendAmount)!,from: UUID(), to: UUID())
             }
-            .disabled(buttonActive)
+            
         }
         .onAppear() {
             
-            vm.validateTranfer(amount: Int(sendAmount)!,from: UUID(), to: UUID())
+            
         }
     }
 }

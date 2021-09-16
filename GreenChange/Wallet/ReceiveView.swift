@@ -11,11 +11,14 @@ struct ReceiveView: View {
     @EnvironmentObject var vm: WalletViewModel
     var body: some View {
         VStack {
+            Text("Have the sender scan this code to send you GC.")
+            Divider()
             Image(uiImage: vm.generateQRCode())
                 .resizable()
                 .scaledToFit()
                 .padding()
-            Text("Have the sender scan this code to send you GC.")
+            Divider()
+            Text("You'll receive an alert when the transfer is confirmed.")
         }
         .navigationTitle("Recieve GreenChange")
     }

@@ -62,6 +62,25 @@ struct MapView: View {
                         }
                     }
                 }
+                if item.annotationType == .business {
+                    ZStack {
+
+                        Image(systemName: "bag.circle.fill")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 40, height: 40)
+
+                            .onTapGesture {
+                                let index: Int = vm.mapItems.firstIndex(where: {$0.id == item.id})!
+
+                                vm.mapItems[index].show.toggle()
+
+                            }
+                        if item.show {
+                            MapAnnotationView()
+                        }
+                    }
+                }
             }
             
         })

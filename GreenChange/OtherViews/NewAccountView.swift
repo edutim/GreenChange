@@ -69,6 +69,7 @@ struct NewAccountView: View {
                 Button("Create Account") {
                     showProgressView = true
                     vm.createAccount(name: potentialUsername)
+                    showView = false
                 }
                 .padding()
                 .foregroundColor(.white)
@@ -83,10 +84,7 @@ struct NewAccountView: View {
                     .padding()
                 Spacer()
             }
-            .onChange(of: vm.newAccountCreated, perform: { wasCreated in
-                showProgressView = false
-                showView = false
-            })
+            
         }
     }
 }

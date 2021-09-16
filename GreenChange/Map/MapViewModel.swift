@@ -46,6 +46,16 @@ class MapViewModel: ObservableObject {
             let newAnnotationItem = AnnotationItem(id: item.id, name: item.title, image: item.image, annotationType: .event, coordinate: item.coordinate!)
             mapItems.append(newAnnotationItem)
         }
+        
+        //Create businesses manually
+        var business = AnnotationItem(id: UUID(), name: "Mootz Pizzeria + Bar", image: "", annotationType: .business, coordinate: .init(latitude: 42.33465, longitude: -83.04672))
+        mapItems.append(business)
+        
+        business = AnnotationItem(id: UUID(), name: "City Bank", image: "", annotationType: .business, coordinate: .init(latitude: 42.33317, longitude: -83.04892))
+        mapItems.append(business)
+        
+        business = AnnotationItem(id: UUID(), name: "Avalon Cafe and Bakery", image: "", annotationType: .business, coordinate: .init(latitude: 42.33299, longitude: -83.04793))
+        
     }
     
 }

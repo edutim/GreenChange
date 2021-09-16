@@ -94,25 +94,19 @@ class WalletViewModel: ObservableObject {
     
     
     func validateTranfer(amount: Int, from: UUID, to: UUID) {
-        guard let url = URL(string: "http://timBookPro.local:8080/tranfer/\(amount)/\(from)/\(to)") else { return }
+        guard let url = URL(string: "http://timBookPro.local:8080/transfer/\(amount)/\(from.uuidString)/\(to.uuidString)") else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard let udata​ = data else { return }
             
             do {
-                let userData = try JSONDecoder().decode(Transfer.self, from: udata​)
-                DispatchQueue.main.async {
-                    
+                let userData = try JSONDecoder().decode(TransferResponse.self, from: udata​)
+                DispatchQueue.main.sync {
+                    print("Transfer successful")
                 }
-                
             } catch {
                 print(error)
             }
-           
-            
-            
-            
-            
         }.resume()
     }
     
@@ -164,4 +158,8 @@ struct Balance: Codable {
 struct Transfer: Codable {
     var from: String
     var to: String
+}
+
+struct TransferResponse: Codable {
+    var status: String
 }

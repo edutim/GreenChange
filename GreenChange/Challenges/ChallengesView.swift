@@ -33,7 +33,7 @@ struct ChallengesView: View {
                 }
                 if selectedFilter == 1 {
                     List(challengesVM.challenges.filter {$0.isActive}) { challenge in
-                        NavigationLink(destination: ChallengeDetailView(challenge: challenge), label: {
+                        NavigationLink(destination: ChallengeActiveView(challenge: challenge), label: {
                             ZStack{
                                 ChallengeCardView(challenge: challenge)
                             }
