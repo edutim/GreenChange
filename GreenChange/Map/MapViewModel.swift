@@ -28,7 +28,7 @@ struct AnnotationItem: Identifiable {
 class MapViewModel: ObservableObject {
     @Published var mapItems = [AnnotationItem]()
     
-    @Published var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 42.329390, longitude: -83.044933), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
+    @Published var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 42.329390, longitude: -83.044933), span: MKCoordinateSpan(latitudeDelta: 0.04, longitudeDelta: 0.04))
     @Published var trackingMode = MapUserTrackingMode.follow
     
     init() {
