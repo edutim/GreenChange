@@ -55,6 +55,10 @@ class MapViewModel: ObservableObject {
         mapItems.append(business)
         
         business = AnnotationItem(id: UUID(), name: "Avalon Cafe and Bakery", image: "", annotationType: .business, coordinate: .init(latitude: 42.33299, longitude: -83.04793))
+        mapItems.append(business)
+        
+        business = AnnotationItem(id: UUID(), name: "Towenhouse Detroit", image: "", annotationType: .business, coordinate: .init(latitude: 42.330079, longitude: -83.045024))
+        mapItems.append(business)
         
     }
     

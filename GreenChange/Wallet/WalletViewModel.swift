@@ -11,6 +11,7 @@ import UIKit
 
 class WalletViewModel: ObservableObject {
 
+    static var shared = WalletViewModel()
     
     @Published var showNewAccount = false
     

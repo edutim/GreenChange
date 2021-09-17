@@ -70,6 +70,7 @@ struct NewAccountView: View {
                     showProgressView = true
                     vm.createAccount(name: potentialUsername)
                     showView = false
+                    WalletViewModel.shared.showNewAccount = false
                 }
                 .padding()
                 .foregroundColor(.white)
@@ -86,6 +87,7 @@ struct NewAccountView: View {
             }
             
         }
+        
     }
 }
 

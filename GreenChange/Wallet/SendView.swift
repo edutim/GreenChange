@@ -13,6 +13,7 @@ struct SendView: View {
     @State var receiverAccountID = ""
     @State private var showingSubView = "step1"
     
+    
     var body: some View {
         if showingSubView == "step1" {
             SendStep1View(sendAmount: $sendAmount, showingSubView: $showingSubView)

@@ -45,6 +45,7 @@ struct AccountInformationView: View {
                     accountID = ""
                     UserDefaults.standard.removeObject(forKey: "wallet")
                     wallet = 0
+                    
                 }
                 .padding()
                 .foregroundColor(Color.white)

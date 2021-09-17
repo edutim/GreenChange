@@ -25,6 +25,7 @@ struct WalletAmountView: View {
                 Text("\(vm.activeAccount.wallet)")
                     .font(.system(size: 128))
                     .foregroundColor(.white)
+                    .shadow(radius: 10)
                 Spacer()
             }
         }

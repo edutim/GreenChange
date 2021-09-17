@@ -17,6 +17,8 @@ struct WalletView: View {
     
     @Binding var showNewAccountView: Bool
     
+    @State var isShowingSendView = false
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -114,6 +116,9 @@ struct WalletView: View {
                 .sheet(isPresented: $showSettings) {
                     SettingsView()
                 }
+                .sheet(isPresented: $showNewAccountView, content: {
+                    NewAccountView(showView: $showNewAccountView)
+                })
                 
                 .toolbar {
                     ToolbarItemGroup(placement: .navigationBarTrailing) {
@@ -131,6 +136,9 @@ struct WalletView: View {
                 }
                 .onAppear() {
                     vm.getAccount()
+                    if vm.showNewAccount {
+                        showNewAccountView = true
+                    }
                     vm.getWalletTotal()
                     
                 }

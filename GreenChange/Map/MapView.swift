@@ -27,20 +27,20 @@ struct MapView: View {
                         Image(systemName: "flag.fill")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-
+                            .foregroundColor(.darkGreen)
                             .frame(width: 40, height: 40)
 
-                            .onTapGesture {
-                                let index: Int = vm.mapItems.firstIndex(where: {$0.id == item.id})!
-                                print("Tapped \(index)")
-
-                                vm.mapItems[index].show.toggle()
-                                print(item)
-                                updateToggle.toggle()
-                            }
-                        if item.show {
-                            MapAnnotationView()
-                        }
+//                            .onTapGesture {
+//                                let index: Int = vm.mapItems.firstIndex(where: {$0.id == item.id})!
+//                                print("Tapped \(index)")
+//
+//                                vm.mapItems[index].show.toggle()
+//                                print(item)
+//                                updateToggle.toggle()
+//                            }
+//                        if item.show {
+//                            MapAnnotationView()
+//                        }
                     }
                 }
                 if item.annotationType == .event {
@@ -49,17 +49,18 @@ struct MapView: View {
                         Image(systemName: "calendar")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
+                            .foregroundColor(.darkGreen)
                             .frame(width: 40, height: 40)
 
-                            .onTapGesture {
-                                let index: Int = vm.mapItems.firstIndex(where: {$0.id == item.id})!
-
-                                vm.mapItems[index].show.toggle()
-
-                            }
-                        if item.show {
-                            MapAnnotationView()
-                        }
+//                            .onTapGesture {
+//                                let index: Int = vm.mapItems.firstIndex(where: {$0.id == item.id})!
+//
+//                                vm.mapItems[index].show.toggle()
+//
+//                            }
+//                        if item.show {
+//                            MapAnnotationView()
+//                        }
                     }
                 }
                 if item.annotationType == .business {
@@ -68,17 +69,18 @@ struct MapView: View {
                         Image(systemName: "bag.circle.fill")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
+                            .foregroundColor(.darkGreen)
                             .frame(width: 40, height: 40)
 
-                            .onTapGesture {
-                                let index: Int = vm.mapItems.firstIndex(where: {$0.id == item.id})!
-
-                                vm.mapItems[index].show.toggle()
-
-                            }
-                        if item.show {
-                            MapAnnotationView()
-                        }
+//                            .onTapGesture {
+//                                let index: Int = vm.mapItems.firstIndex(where: {$0.id == item.id})!
+//
+//                                vm.mapItems[index].show.toggle()
+//
+//                            }
+//                        if item.show {
+//                            MapAnnotationView()
+//                        }
                     }
                 }
             }
